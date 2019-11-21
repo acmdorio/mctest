@@ -2,56 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebf356a0-b4d3-4845-9d55-bcc21a40d3ee" name="Default Changelist" comment="change new GUI">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mctest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VPL_modification2/linker.old.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfExam/_e90_CE-teste_PClass_CE-exameteste.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11001816-eps-converted-to.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11001816.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201721630-eps-converted-to.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201721630.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201811685-eps-converted-to.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201811685.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-27-06.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-28-46.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-30-01.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-31-09.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-04-35.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-05-31.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-06-41.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-22-53.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574339470253;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574339470414;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574339470563;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341475865;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341476022;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341476170;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341531518;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341531669;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341531820;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341601945;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341602096;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341602256;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574342574392;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574342574546;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574342574697;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topic/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VPL_modification2/linker.json" beforeDir="false" afterPath="$PROJECT_DIR$/VPL_modification2/linker.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfExam/_e90_CE-teste_PClass_CE-exameteste.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/QRCode_221_90_11001816-eps-converted-to.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/QRCode_221_90_11001816.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/QRCode_221_90_11201721630-eps-converted-to.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/QRCode_221_90_11201721630.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/QRCode_221_90_11201811685-eps-converted-to.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/QRCode_221_90_11201811685.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-27-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-28-46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-30-01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-31-09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-04-35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-05-31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-06-41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-22-53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-28-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574339470253;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574339470414;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574339470563;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341475865;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341476022;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341476170;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341531518;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341531669;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341531820;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341601945;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341602096;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574341602256;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574342574392;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574342574546;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574342574697;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574342886727;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574342886877;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpGAB/191020-1574342887026;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic/migrations/0001_initial.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -469,28 +459,7 @@
       <workItem from="1574294478432" duration="1612000" />
       <workItem from="1574329227413" duration="1034000" />
       <workItem from="1574330293989" duration="6217000" />
-      <workItem from="1574342036419" duration="776000" />
-    </task>
-    <task id="LOCAL-00022" summary="change settings.env">
-      <created>1566216157251</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1566216157251</updated>
-    </task>
-    <task id="LOCAL-00023" summary="change settings.env">
-      <created>1566316347072</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1566316347072</updated>
-    </task>
-    <task id="LOCAL-00024" summary="change settings.env">
-      <created>1566402322984</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1566402322984</updated>
+      <workItem from="1574342036419" duration="1405000" />
     </task>
     <task id="LOCAL-00025" summary="change new GUI">
       <created>1566433428483</created>
@@ -814,7 +783,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574341899592</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="change new GUI">
+      <created>1574342950741</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1574342950741</updated>
+    </task>
+    <task id="LOCAL-00072" summary="change new GUI">
+      <created>1574342969169</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1574342969169</updated>
+    </task>
+    <task id="LOCAL-00073" summary="change new GUI">
+      <created>1574343100889</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1574343100889</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
