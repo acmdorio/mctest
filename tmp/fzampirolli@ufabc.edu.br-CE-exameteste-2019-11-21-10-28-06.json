@@ -1,0 +1,247 @@
+{
+  "variations": [
+    {
+      "variant": "1",
+      "questions": [
+        {
+          "key": "0070",
+          "number": "1",
+          "weight": "1",
+          "language": [
+            "all"
+          ],
+          "cases": [
+            {
+              "case": "test_1",
+              "input": [
+                "Uni",
+                "lac-I"
+              ],
+              "output": [
+                "Vetor",
+                "lac-O"
+              ]
+            },
+            {
+              "case": "test_2",
+              "input": [
+                "entrada2"
+              ],
+              "output": [
+                "saida2"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "1236",
+          "number": "2",
+          "weight": "1",
+          "language": [
+            "all"
+          ],
+          "cases": [
+            {
+              "case": "test_1",
+              "input": [
+                67,
+                78,
+                7,
+                17
+              ],
+              "output": [
+                258847
+              ]
+            },
+            {
+              "case": "test_2",
+              "input": [
+                63,
+                78,
+                7,
+                17
+              ],
+              "output": [
+                243287
+              ]
+            },
+            {
+              "case": "test_3",
+              "input": [
+                66,
+                66,
+                7,
+                17
+              ],
+              "output": [
+                215724
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "2",
+      "questions": [
+        {
+          "key": "1236",
+          "number": "1",
+          "weight": "1",
+          "language": [
+            "all"
+          ],
+          "cases": [
+            {
+              "case": "test_1",
+              "input": [
+                73,
+                70,
+                19,
+                17
+              ],
+              "output": [
+                252815
+              ]
+            },
+            {
+              "case": "test_2",
+              "input": [
+                73,
+                64,
+                19,
+                17
+              ],
+              "output": [
+                231096
+              ]
+            },
+            {
+              "case": "test_3",
+              "input": [
+                74,
+                76,
+                19,
+                17
+              ],
+              "output": [
+                278408
+              ]
+            }
+          ]
+        },
+        {
+          "key": "0070",
+          "number": "2",
+          "weight": "1",
+          "language": [
+            "all"
+          ],
+          "cases": [
+            {
+              "case": "test_1",
+              "input": [
+                "Bi (ou Multi)",
+                "lac-I"
+              ],
+              "output": [
+                "Matriz",
+                "lac-O"
+              ]
+            },
+            {
+              "case": "test_2",
+              "input": [
+                "entrada2"
+              ],
+              "output": [
+                "saida2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "3",
+      "questions": [
+        {
+          "key": "1236",
+          "number": "1",
+          "weight": "1",
+          "language": [
+            "all"
+          ],
+          "cases": [
+            {
+              "case": "test_1",
+              "input": [
+                63,
+                76,
+                19,
+                17
+              ],
+              "output": [
+                237150
+              ]
+            },
+            {
+              "case": "test_2",
+              "input": [
+                67,
+                79,
+                19,
+                17
+              ],
+              "output": [
+                262118
+              ]
+            },
+            {
+              "case": "test_3",
+              "input": [
+                66,
+                71,
+                19,
+                17
+              ],
+              "output": [
+                231871
+              ]
+            }
+          ]
+        },
+        {
+          "key": "0070",
+          "number": "2",
+          "weight": "1",
+          "language": [
+            "all"
+          ],
+          "cases": [
+            {
+              "case": "test_1",
+              "input": [
+                "Bi (ou Multi)",
+                "lac-I"
+              ],
+              "output": [
+                "Matriz",
+                "lac-O"
+              ]
+            },
+            {
+              "case": "test_2",
+              "input": [
+                "entrada2"
+              ],
+              "output": [
+                "saida2"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

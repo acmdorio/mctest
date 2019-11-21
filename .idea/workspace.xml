@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebf356a0-b4d3-4845-9d55-bcc21a40d3ee" name="Default Changelist" comment="change new GUI">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mctest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VPL_modification2/linker.old.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdfExam/_e90_CE-teste_PClass_CE-exameteste.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11001816-eps-converted-to.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11001816.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201721630-eps-converted-to.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201721630.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201811685-eps-converted-to.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/QRCode_221_90_11201811685.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-27-06.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-28-46.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-30-01.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-09-31-09.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-04-35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-05-31.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-06-41.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/fzampirolli@ufabc.edu.br-CE-exameteste-2019-11-21-10-22-53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574339470253;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574339470414;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574339470563;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341475865;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341476022;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341476170;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341531518;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341531669;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341531820;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341601945;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341602096;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574341602256;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574342574392;221;90;11201811685;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574342574546;221;90;11201721630;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmpGAB/191020-1574342574697;221;90;11001816;0;0;3;0;0;0;0;0;5;.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topic/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPL_modification2/linker.json" beforeDir="false" afterPath="$PROJECT_DIR$/VPL_modification2/linker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="mctest" is-module-sdk="true">
+    <option name="useSoftWraps" value="true" />
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="mctest" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mctest" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Francisco de Assis Zampirolli &lt;fzampirolli@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="5cfdd7a0-9080-4f93-b8c2-6e9ee03a2ac0" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="fzampirolli" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="mctest" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1P7Yg4gFr4SssLdlOYiLwJiEJAI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VPL_modification2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="mctest" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="mctest" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/templates" />
+      <recent name="$PROJECT_DIR$/topic" />
+      <recent name="$PROJECT_DIR$/topic/templates/static" />
+      <recent name="$PROJECT_DIR$/topic/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VPL_modification2" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/main/templates" />
+      <recent name="$PROJECT_DIR$/topic/templates" />
+      <recent name="$PROJECT_DIR$/main/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.mctest">
+    <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
+      <module name="mctest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="mctest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/mctest/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup-mysql.sh" type="JavascriptDebugType" nameIsGenerated="true" uri="http://vcad.ufabc.edu.br/setup-mysql.sh">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="mctest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mctest" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mctest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mctest.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/mctest/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.mctest" />
+      <item itemvalue="Django tests.Test: " />
+      <item itemvalue="JavaScript Debug.setup-mysql.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@83c8b0ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebf356a0-b4d3-4845-9d55-bcc21a40d3ee" name="Default Changelist" comment="" />
+      <created>1565226709912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565226709912</updated>
+      <workItem from="1565226723119" duration="1128000" />
+      <workItem from="1565228015788" duration="276000" />
+      <workItem from="1565228299069" duration="70000" />
+      <workItem from="1565228382864" duration="24000" />
+      <workItem from="1565228432542" duration="3300000" />
+      <workItem from="1565258547978" duration="68860000" />
+      <workItem from="1565556139712" duration="99000" />
+      <workItem from="1565556256333" duration="197000" />
+      <workItem from="1565556473979" duration="743000" />
+      <workItem from="1565557291539" duration="51000" />
+      <workItem from="1565557344917" duration="100000" />
+      <workItem from="1565557447099" duration="110000" />
+      <workItem from="1565557594806" duration="597000" />
+      <workItem from="1565558205840" duration="637000" />
+      <workItem from="1565558846795" duration="1738000" />
+      <workItem from="1565565443800" duration="817000" />
+      <workItem from="1565566345594" duration="121000" />
+      <workItem from="1565566468455" duration="64000" />
+      <workItem from="1565566534890" duration="111000" />
+      <workItem from="1565566647863" duration="1575000" />
+      <workItem from="1565568265586" duration="320000" />
+      <workItem from="1565568607609" duration="1253000" />
+      <workItem from="1565607184756" duration="4333000" />
+      <workItem from="1565612868446" duration="9413000" />
+      <workItem from="1565739616768" duration="37807000" />
+      <workItem from="1565884262068" duration="31298000" />
+      <workItem from="1566045979845" duration="27000" />
+      <workItem from="1566046118345" duration="2960000" />
+      <workItem from="1566060625777" duration="485000" />
+      <workItem from="1566061182248" duration="22124000" />
+      <workItem from="1566131237573" duration="2204000" />
+      <workItem from="1566133949835" duration="17300000" />
+      <workItem from="1566220394930" duration="25254000" />
+      <workItem from="1566340211059" duration="126000" />
+      <workItem from="1566340524666" duration="111095000" />
+      <workItem from="1566779397528" duration="35452000" />
+      <workItem from="1566868945432" duration="83233000" />
+      <workItem from="1567197123403" duration="51000" />
+      <workItem from="1567197188679" duration="1115000" />
+      <workItem from="1567198313364" duration="17514000" />
+      <workItem from="1567265182142" duration="1121000" />
+      <workItem from="1567274882519" duration="59019000" />
+      <workItem from="1567463116251" duration="4602000" />
+      <workItem from="1567471577961" duration="273000" />
+      <workItem from="1567503242544" duration="762000" />
+      <workItem from="1567504541555" duration="2420000" />
+      <workItem from="1567680424143" duration="695000" />
+      <workItem from="1568197051279" duration="2121000" />
+      <workItem from="1568207572792" duration="20000" />
+      <workItem from="1568290743296" duration="558000" />
+      <workItem from="1568291946862" duration="1028000" />
+      <workItem from="1568790367605" duration="16000" />
+      <workItem from="1568790393658" duration="34086000" />
+      <workItem from="1568842592683" duration="4672000" />
+      <workItem from="1568853978208" duration="3377000" />
+      <workItem from="1568915330334" duration="572000" />
+      <workItem from="1568916089606" duration="61000" />
+      <workItem from="1568916219373" duration="2619000" />
+      <workItem from="1568922418170" duration="428000" />
+      <workItem from="1568928447856" duration="580000" />
+      <workItem from="1569317463114" duration="853000" />
+      <workItem from="1569456681647" duration="44000" />
+      <workItem from="1569456747928" duration="965000" />
+      <workItem from="1569520575826" duration="19918000" />
+      <workItem from="1569550014426" duration="98000" />
+      <workItem from="1569580892152" duration="2328000" />
+      <workItem from="1569583495378" duration="56000" />
+      <workItem from="1569583655421" duration="907000" />
+      <workItem from="1569586359053" duration="1635000" />
+      <workItem from="1569589421102" duration="3713000" />
+      <workItem from="1569673098525" duration="438000" />
+      <workItem from="1569776889112" duration="1296000" />
+      <workItem from="1569889903501" duration="2785000" />
+      <workItem from="1569923251767" duration="6850000" />
+      <workItem from="1570116937864" duration="33493000" />
+      <workItem from="1570546658200" duration="17562000" />
+      <workItem from="1570570225822" duration="637000" />
+      <workItem from="1570570892484" duration="3068000" />
+      <workItem from="1570573997212" duration="1408000" />
+      <workItem from="1570700380564" duration="1281000" />
+      <workItem from="1570711637524" duration="2369000" />
+      <workItem from="1570741290681" duration="833000" />
+      <workItem from="1570786905558" duration="364000" />
+      <workItem from="1570787293383" duration="2505000" />
+      <workItem from="1570792263273" duration="7743000" />
+      <workItem from="1570819733928" duration="20798000" />
+      <workItem from="1570883495170" duration="485000" />
+      <workItem from="1570900645706" duration="1210000" />
+      <workItem from="1570909776653" duration="5998000" />
+      <workItem from="1571185693561" duration="668000" />
+      <workItem from="1571262986809" duration="954000" />
+      <workItem from="1571269814968" duration="484000" />
+      <workItem from="1571315858817" duration="364000" />
+      <workItem from="1571317355331" duration="254000" />
+      <workItem from="1571318743238" duration="4763000" />
+      <workItem from="1571328853446" duration="42000" />
+      <workItem from="1571335293314" duration="634000" />
+      <workItem from="1571341028389" duration="1014000" />
+      <workItem from="1571355631051" duration="246000" />
+      <workItem from="1571444143713" duration="3069000" />
+      <workItem from="1571493247244" duration="4425000" />
+      <workItem from="1571524375516" duration="379000" />
+      <workItem from="1571571093103" duration="4191000" />
+      <workItem from="1571575742521" duration="3172000" />
+      <workItem from="1571579885220" duration="432000" />
+      <workItem from="1571580335370" duration="1015000" />
+      <workItem from="1571581575262" duration="387000" />
+      <workItem from="1571582061877" duration="61000" />
+      <workItem from="1571582155127" duration="776000" />
+      <workItem from="1571584801021" duration="755000" />
+      <workItem from="1571587095031" duration="240000" />
+      <workItem from="1571587407887" duration="11496000" />
+      <workItem from="1571938702608" duration="2166000" />
+      <workItem from="1571952235280" duration="10915000" />
+      <workItem from="1572358669931" duration="262000" />
+      <workItem from="1572486099395" duration="21143000" />
+      <workItem from="1572568706221" duration="150000" />
+      <workItem from="1572637074278" duration="8363000" />
+      <workItem from="1572646905473" duration="6396000" />
+      <workItem from="1572702389640" duration="3596000" />
+      <workItem from="1573223500641" duration="478000" />
+      <workItem from="1573224079220" duration="64000" />
+      <workItem from="1573224154068" duration="674000" />
+      <workItem from="1573236187659" duration="16079000" />
+      <workItem from="1573259656246" duration="3238000" />
+      <workItem from="1573320587011" duration="2024000" />
+      <workItem from="1573326437094" duration="1139000" />
+      <workItem from="1573327677322" duration="134000" />
+      <workItem from="1573329741939" duration="15145000" />
+      <workItem from="1573384609968" duration="413000" />
+      <workItem from="1573578521236" duration="4408000" />
+      <workItem from="1573600123755" duration="3233000" />
+      <workItem from="1573764968116" duration="7525000" />
+      <workItem from="1573774142540" duration="29000" />
+      <workItem from="1574124841079" duration="605000" />
+      <workItem from="1574243289685" duration="18937000" />
+      <workItem from="1574285669313" duration="3037000" />
+      <workItem from="1574289369070" duration="2831000" />
+      <workItem from="1574294478432" duration="1612000" />
+      <workItem from="1574329227413" duration="1034000" />
+      <workItem from="1574330293989" duration="6217000" />
+      <workItem from="1574342036419" duration="776000" />
+    </task>
+    <task id="LOCAL-00022" summary="change settings.env">
+      <created>1566216157251</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1566216157251</updated>
+    </task>
+    <task id="LOCAL-00023" summary="change settings.env">
+      <created>1566316347072</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566316347072</updated>
+    </task>
+    <task id="LOCAL-00024" summary="change settings.env">
+      <created>1566402322984</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566402322984</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change new GUI">
+      <created>1566433428483</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1566433428483</updated>
+    </task>
+    <task id="LOCAL-00026" summary="change new GUI">
+      <created>1566641836637</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1566641836637</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change new GUI">
+      <created>1566867174951</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1566867174951</updated>
+    </task>
+    <task id="LOCAL-00028" summary="change new GUI">
+      <created>1566955380406</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1566955380406</updated>
+    </task>
+    <task id="LOCAL-00029" summary="change new GUI">
+      <created>1567150376773</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1567150376773</updated>
+    </task>
+    <task id="LOCAL-00030" summary="change new GUI">
+      <created>1567150423916</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567150423916</updated>
+    </task>
+    <task id="LOCAL-00031" summary="change new GUI">
+      <created>1567178978291</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1567178978291</updated>
+    </task>
+    <task id="LOCAL-00032" summary="change new GUI">
+      <created>1567188569226</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1567188569226</updated>
+    </task>
+    <task id="LOCAL-00033" summary="change new GUI">
+      <created>1567197447914</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1567197447914</updated>
+    </task>
+    <task id="LOCAL-00034" summary="change new GUI">
+      <created>1567202136790</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1567202136790</updated>
+    </task>
+    <task id="LOCAL-00035" summary="change new GUI">
+      <created>1567204072155</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1567204072155</updated>
+    </task>
+    <task id="LOCAL-00036" summary="change new GUI">
+      <created>1567242553128</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1567242553128</updated>
+    </task>
+    <task id="LOCAL-00037" summary="change new GUI">
+      <created>1567258128229</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1567258128229</updated>
+    </task>
+    <task id="LOCAL-00038" summary="change new GUI">
+      <created>1567373368614</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1567373368614</updated>
+    </task>
+    <task id="LOCAL-00039" summary="change new GUI">
+      <created>1567376005756</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1567376005756</updated>
+    </task>
+    <task id="LOCAL-00040" summary="change new GUI">
+      <created>1567471591647</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1567471591647</updated>
+    </task>
+    <task id="LOCAL-00041" summary="change new GUI">
+      <created>1568853422566</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1568853422566</updated>
+    </task>
+    <task id="LOCAL-00042" summary="change new GUI">
+      <created>1568857303803</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1568857303803</updated>
+    </task>
+    <task id="LOCAL-00043" summary="change new GUI">
+      <created>1568917591601</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1568917591601</updated>
+    </task>
+    <task id="LOCAL-00044" summary="change new GUI">
+      <created>1569593478957</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1569593478957</updated>
+    </task>
+    <task id="LOCAL-00045" summary="change new GUI">
+      <created>1570872693589</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1570872693589</updated>
+    </task>
+    <task id="LOCAL-00046" summary="change new GUI">
+      <created>1571598373965</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1571598373966</updated>
+    </task>
+    <task id="LOCAL-00047" summary="change new GUI">
+      <created>1571598737728</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1571598737728</updated>
+    </task>
+    <task id="LOCAL-00048" summary="change new GUI">
+      <created>1571601093734</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1571601093734</updated>
+    </task>
+    <task id="LOCAL-00049" summary="change new GUI">
+      <created>1572644500711</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1572644500711</updated>
+    </task>
+    <task id="LOCAL-00050" summary="change new GUI">
+      <created>1572702617422</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702617423</updated>
+    </task>
+    <task id="LOCAL-00051" summary="change new GUI">
+      <created>1573224473632</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1573224473632</updated>
+    </task>
+    <task id="LOCAL-00052" summary="change new GUI">
+      <created>1573250135444</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1573250135444</updated>
+    </task>
+    <task id="LOCAL-00053" summary="change new GUI">
+      <created>1573250476336</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1573250476336</updated>
+    </task>
+    <task id="LOCAL-00054" summary="change new GUI">
+      <created>1573262536910</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1573262536911</updated>
+    </task>
+    <task id="LOCAL-00055" summary="change new GUI">
+      <created>1573383701291</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1573383701292</updated>
+    </task>
+    <task id="LOCAL-00056" summary="change new GUI">
+      <created>1573383954013</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1573383954013</updated>
+    </task>
+    <task id="LOCAL-00057" summary="change new GUI">
+      <created>1573384633110</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1573384633110</updated>
+    </task>
+    <task id="LOCAL-00058" summary="change new GUI">
+      <created>1573583033886</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1573583033886</updated>
+    </task>
+    <task id="LOCAL-00059" summary="change new GUI">
+      <created>1573602533913</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1573602533913</updated>
+    </task>
+    <task id="LOCAL-00060" summary="change new GUI">
+      <created>1573602743060</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1573602743060</updated>
+    </task>
+    <task id="LOCAL-00061" summary="change new GUI">
+      <created>1574125351227</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1574125351227</updated>
+    </task>
+    <task id="LOCAL-00062" summary="including irt">
+      <created>1574283565377</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1574283565377</updated>
+    </task>
+    <task id="LOCAL-00063" summary="change new GUI">
+      <created>1574288315197</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1574288315197</updated>
+    </task>
+    <task id="LOCAL-00064" summary="change new GUI">
+      <created>1574293344054</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1574293344054</updated>
+    </task>
+    <task id="LOCAL-00065" summary="change new GUI">
+      <created>1574295856774</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1574295856774</updated>
+    </task>
+    <task id="LOCAL-00066" summary="change new GUI">
+      <created>1574330208625</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1574330208626</updated>
+    </task>
+    <task id="LOCAL-00067" summary="change new GUI">
+      <created>1574330222428</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1574330222428</updated>
+    </task>
+    <task id="LOCAL-00068" summary="change new GUI">
+      <created>1574330232787</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1574330232788</updated>
+    </task>
+    <task id="LOCAL-00069" summary="change new GUI">
+      <created>1574335550440</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1574335550441</updated>
+    </task>
+    <task id="LOCAL-00070" summary="change new GUI">
+      <created>1574341899592</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1574341899592</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="HEAD..origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="HEAD..origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="HEAD..origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+        <option value="3" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/sympy" />
+      <path value="$PROJECT_DIR$/mctest" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="change license" />
+    <MESSAGE value="change settings.env" />
+    <MESSAGE value="including irt" />
+    <MESSAGE value="change new GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="change new GUI" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/topic/views.py</url>
+          <line>304</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam/newVersion/CommonUtils.py</url>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam/CVMCTest.py</url>
+          <line>1649</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam/views.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/course/templates/discipline/discipline_update.html</url>
+          <line>52</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/topic/templates/topic/topic_list.html</url>
+          <line>3</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mctest$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1567198461579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/mctest$.coverage" NAME=" Coverage Results" MODIFIED="1569586836741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
